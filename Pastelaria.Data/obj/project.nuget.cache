@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dm8S62R89jPGfuokNdgre6l2yU2CpBB25mYtLbcYeehuoAB1IwV9e470zK5qb/HaICrV+NBnqsuJ5XdFKzwLZg==",
+  "dgSpecHash": "0bO0D1nYZo8Xa6lqXh3ODB/xYbDb+THQN1X16CoCzaYJXJl7YGVo6HB+kLOJut04o+mv7o4dl42cqLuxObAJRw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Waldson\\Desktop\\Pastelaria\\Pastelaria.Data\\Pastelaria.Data.csproj",
+  "projectFilePath": "C:\\Users\\Waldson\\Desktop\\Pastelaria\\Pastelaria.Data\\Pastelaria.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Waldson\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Waldson\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

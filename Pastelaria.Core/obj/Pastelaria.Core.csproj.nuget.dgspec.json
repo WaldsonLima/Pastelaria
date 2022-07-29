@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Waldson\\Desktop\\Pastelaria\\Pastelaria.Core\\Pastelaria.Core.csproj": {}
+    "C:\\Users\\Waldson\\Desktop\\Pastelaria\\Pastelaria.Core\\Pastelaria.Core.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Waldson\\Desktop\\Pastelaria\\Pastelaria.Core\\Pastelaria.Core.csproj": {
+    "C:\\Users\\Waldson\\Desktop\\Pastelaria\\Pastelaria.Core\\Pastelaria.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Waldson\\Desktop\\Pastelaria\\Pastelaria.Core\\Pastelaria.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Waldson\\Desktop\\Pastelaria\\Pastelaria.Core\\Pastelaria.Core.csproj",
         "projectName": "Pastelaria.Core",
-        "projectPath": "c:\\Users\\Waldson\\Desktop\\Pastelaria\\Pastelaria.Core\\Pastelaria.Core.csproj",
+        "projectPath": "C:\\Users\\Waldson\\Desktop\\Pastelaria\\Pastelaria.Core\\Pastelaria.Core.csproj",
         "packagesPath": "C:\\Users\\Waldson\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Waldson\\Desktop\\Pastelaria\\Pastelaria.Core\\obj\\",
+        "outputPath": "C:\\Users\\Waldson\\Desktop\\Pastelaria\\Pastelaria.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

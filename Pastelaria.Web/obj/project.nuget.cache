@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FwAl080lgT7qEHFbYv4FJ28dckB7+BGnWCmHDR/5jpr3iTetyDfeAlJ0f9nMaky27d3q2R1GDmMmQdjIEeP1yg==",
+  "dgSpecHash": "euMN2VXbjW9PJryZWQZieGNyDBx8xQcHfnZ2kYms1hXRZmsj7qgQQMa3SQaZuUdxFaWrh86TQIzOPQhHTo4Qbg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Waldson\\Desktop\\Pastelaria\\Pastelaria.Web\\Pastelaria.Web.csproj",
+  "projectFilePath": "C:\\Users\\Waldson\\Desktop\\Pastelaria\\Pastelaria.Web\\Pastelaria.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Waldson\\.nuget\\packages\\criptquery\\1.0.3\\criptquery.1.0.3.nupkg.sha512",
     "C:\\Users\\Waldson\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
