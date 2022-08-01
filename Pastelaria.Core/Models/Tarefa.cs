@@ -9,8 +9,9 @@ namespace Pastelaria.Core.Models
         public DateTime DataConclusao { get; set; }
         public int IdUsuarioCadastro { get; set; }
 
-        public TarefaStatus TarefaStatus { get; set;}
+        public TarefaStatus TarefaStatus { get; set; }
 
         public IEnumerable<Comentario> Comentarios { get; set; }
+        public IEnumerable<UsuarioTarefa> UsuarioTarefas { get; set; }
     }
 }

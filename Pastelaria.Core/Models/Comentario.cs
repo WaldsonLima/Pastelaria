@@ -9,5 +9,7 @@ namespace Pastelaria.Core.Models
         public int IdUsuarioCadastro { get; set; }
 
         public Tarefa Tarefa { get; set; }
+        public Comentario idComentario { get; set; }
+        public IEnumerable<Comentario> Comentarios { get; set; }
     }
 }

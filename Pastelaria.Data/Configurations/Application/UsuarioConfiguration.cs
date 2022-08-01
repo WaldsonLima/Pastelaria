@@ -1,6 +1,6 @@
 namespace Pastelaria.Data.Configurations.Application
 {
-    public class UsuarioConfiguration
+    public class UsuarioConfiguration : IEntityTypeConfiguration<Usuario>
     {
         public void Configure(EntityTypeBuilder<Usuario> builder)
         {
@@ -16,6 +16,7 @@ namespace Pastelaria.Data.Configurations.Application
             builder.Property(x => x.DataExpiracaoSenha).HasColumnName("dataExpiracaoSenha");
             builder.Property(x => x.IdUsuarioCadastro).HasColumnName("idUsuarioCadastro");
 
+            builder.HasOne(x => x.TipoUsuario).WithMany(x => x.Usuarios).HasForeignKey(x => x.IdTipoUsuario);
             builder.HasMany(x => x.UsuarioTarefas).WithOne(x => x.Usuario).HasForeignKey(x => x.IdUsuario);
         }
     }

@@ -4,5 +4,7 @@ namespace Pastelaria.Core.Models
     {
         public int Id { get; set; }
         public string Descricao { get; set; }
+
+        public IEnumerable<Usuario> Usuarios { get; set; }
     }
 }

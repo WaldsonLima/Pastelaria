@@ -1,9 +1,4 @@
-﻿using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using Pastelaria.Web.ViewModels;
-
-namespace Pastelaria.Web.Controllers;
+﻿namespace Pastelaria.Web.Controllers;
 
 public class HomeController : Controller
 {
