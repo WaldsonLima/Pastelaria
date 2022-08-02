@@ -1,5 +1,11 @@
 var builder = WebApplication.CreateBuilder(args);
 
+IConfiguration configurations = builder.Configuration;
+
+var appSettings = configurations.Get<AppSettings>();
+
+builder.Services.AddDependencies(appSettings);
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

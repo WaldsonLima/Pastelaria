@@ -1,3 +1,5 @@
+using Pastelaria.Core.Dto;
+
 namespace Pastelaria.Data.Repositories
 {
     public class UsuarioRepository : BaseRepository, IUsuarioRepository
@@ -9,7 +11,7 @@ namespace Pastelaria.Data.Repositories
             _applicationDbContext = dbContext;
         }
 
-        public async Task<IEnumerable<Usuario>> BuscarUsuarioAsync(Usuario usuario)
+        public async Task<IEnumerable<Usuario>> BuscarUsuarioAsync(BuscarUsuarioDto dto)
         {
             var query = _applicationDbContext.Usuarios
                 .AsSingleQuery()
@@ -29,12 +31,6 @@ namespace Pastelaria.Data.Repositories
         public async Task CadastrarUsuarioAsync(Usuario usuario)
         {
             await _applicationDbContext.Usuarios.AddAsync(usuario);
-            await _applicationDbContext.SaveChangesAsync();
-        }
-
-        public async Task EditarUsuarioAsync(int id, object camposEditados)
-        {
-            await _applicationDbContext.UpdateEntryAsync<Usuario>(id, camposEditados);
             await _applicationDbContext.SaveChangesAsync();
         }
     }

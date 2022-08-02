@@ -12,6 +12,6 @@ namespace Pastelaria.Core.Models
         public TarefaStatus TarefaStatus { get; set; }
 
         public IEnumerable<Comentario> Comentarios { get; set; }
-        public IEnumerable<UsuarioTarefa> UsuarioTarefas { get; set; }
+        public IEnumerable<UsuarioTarefa> UsuariosTarefas { get; set; }
     }
 }

@@ -1,3 +1,6 @@
+using Pastelaria.Data.Repositories;
+using Pastelaria.Core.Interfaces;
+
 namespace Pastelaria.Web.Configurations
 {
     public static class DependencyInjection
@@ -14,6 +17,7 @@ namespace Pastelaria.Web.Configurations
             services.AddControllersWithViews();
 
             services.AddScoped<ApplicationDbContext>();
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
         }
     }
 }

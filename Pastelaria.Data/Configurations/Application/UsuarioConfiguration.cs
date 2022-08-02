@@ -8,7 +8,7 @@ namespace Pastelaria.Data.Configurations.Application
 
             builder.HasKey(property => property.Id).HasName("pk_usuario");
 
-            builder.Property(x => x.Id).HasColumnName("id").ValueGeneratedOnAdd();
+            builder.Property(x => x.Id).HasColumnName("id");
             builder.Property(x => x.IdTipoUsuario).HasColumnName("idTipoUsuario");
             builder.Property(x => x.Nome).HasColumnName("nome").HasMaxLength(45);
             builder.Property(x => x.Email).HasColumnName("email").HasMaxLength(100);
@@ -17,7 +17,7 @@ namespace Pastelaria.Data.Configurations.Application
             builder.Property(x => x.IdUsuarioCadastro).HasColumnName("idUsuarioCadastro");
 
             builder.HasOne(x => x.TipoUsuario).WithMany(x => x.Usuarios).HasForeignKey(x => x.IdTipoUsuario);
-            builder.HasMany(x => x.UsuarioTarefas).WithOne(x => x.Usuario).HasForeignKey(x => x.IdUsuario);
+            builder.HasMany(x => x.UsuariosTarefas).WithOne(x => x.Usuario).HasForeignKey(x => x.IdUsuario);
         }
     }
 }

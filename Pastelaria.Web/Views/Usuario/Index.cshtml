@@ -1,0 +1,30 @@
+@model IEnumerable<Usuario>
+
+<h1>Tela de usuário.</h1>
+
+<button>Buscar</button>
+<button>Cadastrar</button>
+
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>IdTipoUsuario</th>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>DataExpiracaoSenha</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.IdTipoUsuario</td>
+                <td>@item.Nome</td>
+                <td>@item.Email</td>
+                <td>@item.DataExpiracaoSenha</td>
+            </tr>
+        }
+    </tbody>
+</table>

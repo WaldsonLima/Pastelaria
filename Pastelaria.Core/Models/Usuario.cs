@@ -12,6 +12,6 @@ namespace Pastelaria.Core.Models
 
         public TipoUsuario TipoUsuario { get; set;}
 
-        public IEnumerable<UsuarioTarefa> UsuarioTarefas { get; set; }
+        public IEnumerable<UsuarioTarefa> UsuariosTarefas { get; set; }
     }
 }

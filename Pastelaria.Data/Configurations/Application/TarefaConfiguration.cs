@@ -15,7 +15,7 @@ namespace Pastelaria.Data.Configurations.Application
             builder.Property(x => x.DataConclusao).HasColumnName("dataConclusao");
             builder.Property(x => x.IdUsuarioCadastro).HasColumnName("idUsuarioCadastro");
 
-            builder.HasMany(x => x.UsuarioTarefas).WithOne(x => x.Tarefa).HasForeignKey(x => x.IdTarefa);
+            builder.HasMany(x => x.UsuariosTarefas).WithOne(x => x.Tarefa).HasForeignKey(x => x.IdTarefa);
             builder.HasOne(x => x.TarefaStatus).WithMany(x => x.Tarefas).HasForeignKey(x => x.IdTarefaStatus);
             builder.HasMany(x => x.Comentarios).WithOne(x => x.Tarefa).HasForeignKey(x => x.IdTarefa);      
         }
