@@ -1,30 +1,52 @@
 @model IEnumerable<Usuario>
 
-<h1>Tela de usuário.</h1>
+<div class="section-cadastrar-usuario">
+    <h3>Cadastre um novo usuário</h3>
+    <form id="form-cadastrar">
+        <input type="number" placeholder="IdTipoUsuario">
+        <input type="text" placeholder="Nome">
+        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Senha">
+        <input type="date" placeholder="DataExpiracaoSenha">
+        <input type="number" placeholder="IdUsuarioCadastro">
+        <input type="submit" value="Cadastrar">
+    </form>
+</div>
 
-<button>Buscar</button>
-<button>Cadastrar</button>
-
-<table>
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>IdTipoUsuario</th>
-            <th>Nome</th>
-            <th>Email</th>
-            <th>DataExpiracaoSenha</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
+<div class="section-lista-usuario">
+    <h3>Veja abaixo os usuários cadastrados</h3>
+    <table>
+        <thead>
             <tr>
-                <td>@item.Id</td>
-                <td>@item.IdTipoUsuario</td>
-                <td>@item.Nome</td>
-                <td>@item.Email</td>
-                <td>@item.DataExpiracaoSenha</td>
+                <th>Id</th>
+                <th>IdTipoUsuario</th>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>DataExpiracaoSenha</th>
             </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.IdTipoUsuario</td>
+                    <td>@item.Nome</td>
+                    <td>@item.Email</td>
+                    <td>@item.DataExpiracaoSenha</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script src="~/lib/iziToast/js/iziToast.min.js"></script>
+<script src="~/js/site.js"></script>
+<script src="~/js/pages/usuario.js"></script>
+<script>
+    usuario.init({
+        urls: {
+            cadastrar: '@Url.Action("Cadastrar", "Usuario")'
         }
-    </tbody>
-</table>
+    })
+</script>

@@ -10,3 +10,15 @@ C:\Users\Waldson\Desktop\Pastelaria\Pastelaria.Core\obj\Debug\net6.0\Pastelaria.
 C:\Users\Waldson\Desktop\Pastelaria\Pastelaria.Core\obj\Debug\net6.0\refint\Pastelaria.Core.dll
 C:\Users\Waldson\Desktop\Pastelaria\Pastelaria.Core\obj\Debug\net6.0\Pastelaria.Core.pdb
 C:\Users\Waldson\Desktop\Pastelaria\Pastelaria.Core\obj\Debug\net6.0\ref\Pastelaria.Core.dll
+C:\Users\walds\Desktop\Pastelaria\Pastelaria.Core\bin\Debug\net6.0\Pastelaria.Core.deps.json
+C:\Users\walds\Desktop\Pastelaria\Pastelaria.Core\bin\Debug\net6.0\Pastelaria.Core.dll
+C:\Users\walds\Desktop\Pastelaria\Pastelaria.Core\bin\Debug\net6.0\Pastelaria.Core.pdb
+C:\Users\walds\Desktop\Pastelaria\Pastelaria.Core\obj\Debug\net6.0\Pastelaria.Core.csproj.AssemblyReference.cache
+C:\Users\walds\Desktop\Pastelaria\Pastelaria.Core\obj\Debug\net6.0\Pastelaria.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\walds\Desktop\Pastelaria\Pastelaria.Core\obj\Debug\net6.0\Pastelaria.Core.AssemblyInfoInputs.cache
+C:\Users\walds\Desktop\Pastelaria\Pastelaria.Core\obj\Debug\net6.0\Pastelaria.Core.AssemblyInfo.cs
+C:\Users\walds\Desktop\Pastelaria\Pastelaria.Core\obj\Debug\net6.0\Pastelaria.Core.csproj.CoreCompileInputs.cache
+C:\Users\walds\Desktop\Pastelaria\Pastelaria.Core\obj\Debug\net6.0\Pastelaria.Core.dll
+C:\Users\walds\Desktop\Pastelaria\Pastelaria.Core\obj\Debug\net6.0\refint\Pastelaria.Core.dll
+C:\Users\walds\Desktop\Pastelaria\Pastelaria.Core\obj\Debug\net6.0\Pastelaria.Core.pdb
+C:\Users\walds\Desktop\Pastelaria\Pastelaria.Core\obj\Debug\net6.0\ref\Pastelaria.Core.dll

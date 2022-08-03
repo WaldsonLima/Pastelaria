@@ -18,5 +18,21 @@ namespace Pastelaria.Web.Controllers
             var usuarios = await _usuarioRepository.BuscarUsuarioAsync(new BuscarUsuarioDto { });
             return View(usuarios);
         }
+
+        public async Task<IActionResult> Cadastrar(Usuario usuario)
+        {
+
+            var cadastro = await _usuarioRepository.CadastrarUsuarioAsync(new Usuario
+            {
+                IdTipoUsuario = usuario.IdTipoUsuario,
+                Nome = usuario.Nome,
+                Email = usuario.Email,
+                Senha = usuario.Senha,
+                DataExpiracaoSenha = usuario.DataExpiracaoSenha,
+                IdUsuarioCadastro = usuario.IdUsuarioCadastro
+            });
+
+            return Ok("Usuario cadastrado com sucesso");
+        }
     }
 }
